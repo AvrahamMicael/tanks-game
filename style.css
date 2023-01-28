@@ -1,0 +1,47 @@
+*
+{
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+html, body, .container
+{
+  height: 100%;
+  width: 100%;
+}
+
+body
+{
+  overflow: hidden;
+}
+
+.container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title
+{
+  position: relative;
+  right: auto;
+  left: auto;
+}
+
+button
+{
+  display: block;
+  margin: 0 auto;
+}
+
+#menu
+{
+  width: 100px;
+  height: 100px;
+}
+
+canvas
+{
+  display: none;
+}
